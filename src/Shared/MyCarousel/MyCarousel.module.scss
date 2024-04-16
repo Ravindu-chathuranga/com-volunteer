@@ -1,0 +1,16 @@
+.sliderImg {
+    background-size: cover;
+    background-position-x: center;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .sliderImg {
+        height: 70dvh;
+    }
+}
+
+@media only screen and (min-device-width: 768px) {
+    .sliderImg {
+        height: 100dvh;
+    }
+}
